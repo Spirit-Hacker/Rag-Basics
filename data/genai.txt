@@ -1,0 +1,15 @@
+Generative AI models generate new text, images, or code using patterns learned from training data. Large Language Models process text using transformer architectures.
+
+RAG, or Retrieval Augmented Generation, improves accuracy by combining an LLM with external knowledge sources. The system retrieves relevant text chunks and adds them as context to the model during generation.
+
+Embeddings convert text into high-dimensional vectors that represent meaning. Semantic search compares embeddings to find the most relevant information for a query.
+
+Fine-tuning modifies model weights using domain-specific data. Prompt engineering shapes the model’s behavior without changing the weights.
+
+Agentic workflows allow LLMs to call tools, browse the web, and interact with APIs. They use planning, memory, and action loops to execute multi-step tasks.
+
+Tokenization breaks text into smaller pieces so the model can process it. Attention mechanisms let the model focus on important parts of the input.
+
+Generative models evaluate output based on probability distribution over tokens. Temperature controls randomness. Lower values make the model deterministic.
+
+Safety techniques like guardrails, content filtering, and grounding reduce hallucinations and ensure the model stays aligned with user intent.

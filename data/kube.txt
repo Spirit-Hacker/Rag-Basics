@@ -1,0 +1,15 @@
+Kubernetes is a container orchestration platform that automates deployment, scaling, and management of containerized applications. It groups containers into units called Pods, which are the smallest deployable object.
+
+A Deployment ensures that the desired number of Pod replicas are always running. If a Pod fails, Kubernetes automatically replaces it.
+
+Services expose Pods using stable networking. ClusterIP exposes Pods inside the cluster, NodePort exposes to external traffic, and LoadBalancer integrates with cloud load balancers.
+
+ConfigMaps store configuration data separately from code. Secrets store sensitive information like passwords and tokens.
+
+The Kubernetes control plane includes the API Server, Scheduler, Controller Manager, and etcd database. Worker nodes run the container runtime, kubelet, and kube-proxy.
+
+Kubernetes uses declarative configuration. You describe the desired state in YAML files, and the control plane continually works to match the actual state to the desired state.
+
+Horizontal Pod Autoscaler increases or decreases replicas based on CPU or custom metrics. StatefulSets are used for applications requiring stable network identities and persistent storage.
+
+kubectl is the CLI tool used to interact with Kubernetes clusters. Common commands include: kubectl get, kubectl apply, kubectl describe, and kubectl logs.

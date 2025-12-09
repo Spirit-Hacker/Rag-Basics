@@ -1,0 +1,15 @@
+Three.js is a JavaScript library used to render 3D graphics in the browser using WebGL. It simplifies creating scenes, cameras, lights, materials, and geometries.
+
+A Scene is the container that holds 3D objects. A PerspectiveCamera simulates human eye perspective. WebGLRenderer draws the scene on a canvas at every frame.
+
+Geometries define shapes such as BoxGeometry, SphereGeometry, or custom shapes. Materials like MeshBasicMaterial or MeshStandardMaterial define how objects appear.
+
+Lighting is essential for realistic rendering. Common lights include AmbientLight, PointLight, DirectionalLight, and SpotLight.
+
+The render loop uses requestAnimationFrame to update animations. Objects can rotate, move, or respond to user interactions.
+
+Textures add detail to surfaces. Environment maps create reflections. Normal maps simulate surface bumps without adding geometry.
+
+Shaders allow custom control of how vertices and fragments are processed. Vertex shaders modify position of vertices. Fragment shaders control pixel color. ShaderMaterial enables writing GLSL for advanced effects.
+
+OrbitControls let users rotate, zoom, and pan the camera. Post-processing adds effects such as bloom, depth of field, and color grading.

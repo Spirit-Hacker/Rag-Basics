@@ -1,0 +1,15 @@
+Docker is a tool that packages applications into isolated environments called containers. A container includes the application code, runtime, dependencies, and configurations. Containers run the same way on any system that supports Docker.
+
+Images are the blueprint for containers. An image is built using a Dockerfile, which contains instructions like base image, files to copy, commands to run, and exposed ports.
+
+Docker uses a layered filesystem where each instruction in the Dockerfile creates a new layer. Layers are cached to speed up rebuilds.
+
+A container is a running instance of an image. Containers are lightweight because they use the host operating system kernel instead of running a full virtual machine.
+
+The Docker daemon manages containers, images, networks, and volumes. The Docker CLI communicates with the daemon using the Docker API.
+
+Volumes allow containers to store persistent data outside the container lifecycle. Bind mounts let you map local folders into containers during development.
+
+Docker Compose is used to define and run multi-container applications. It uses a YAML file to declare services, networks, and volumes.
+
+Common commands include: docker build, docker run, docker logs, docker exec, docker ps, docker pull, and docker push.
